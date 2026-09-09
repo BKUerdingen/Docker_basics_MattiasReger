@@ -10,7 +10,7 @@ services:
       - "80:80/tcp"
     environment:
       TZ: 'Europe/Berlin'
-      FTLCONF_webserver_api_password: 'DockerPasswort'
+      # FTLCONF_webserver_api_password: 'DockerPasswort'
     volumes:
       - './etc-pihole:/etc/pihole'
       - './etc-dnsmasq.d:/etc/dnsmasq.d'
